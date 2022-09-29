@@ -1,21 +1,41 @@
-header{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
     display:flex;
 }
 header ul li{
     display: inline;
-    
+    margin-right: 30px;
+    position: relative;
+    top: 20px;
+    left: 20px;
 }
+
+ 
 
 .image-logo{
 
     width: 200px;
-    
 }
+
+ 
 
 nav ul li{
     display: inline;
+    margin-right: 30px;
+     
     
 }
+
+.menu-2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
 
 section{
     width: 50%;
