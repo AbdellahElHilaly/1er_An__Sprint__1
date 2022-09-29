@@ -1,7 +1,52 @@
-.my-header{
-    background-color: blue;
+header{
+    display:flex;
+}
+header ul li{
+    display: inline;
+    
 }
 
-  
+.image-logo{
 
+    width: 200px;
+    
+}
+
+nav ul li{
+    display: inline;
+    
+}
+
+section{
+    width: 50%;
+}
+.container{
+      width: 220px;
+      height: 380px;
+      background-color: rgb(220, 210, 167);
+      padding-top: 10px;
+      margin: 10px;
+
+      
+     
+}
+.pruduct-image{
+    margin: auto;
+    width:  190px;
+    height: 200px;
+    background-color: rgb(92, 90, 102);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.pruduct-propritee{
+     padding-left: 15px;
+}
+article{
+    display: flex;
+    flex-wrap:  wrap;
+}
+ 
+ 
   
