@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+
+body {
+    background-color: rgb(240, 247, 228);
+}
+
+header {
+    display: flex;
+}
+
+
+.nav-1 li {
+    display: inline;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+header .logo-container {
+    width: 7rem;
+    height: 4rem;
+    padding: 1rem;
+    background-color: black;
+}
+
+header span {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+
+.nav-2 li {
+    display: inline;
+    font-weight: bold;
+    color: rgb(68, 67, 67);
+    font-size: 1rem;
+    margin-right: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-2 a {
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+}
+
+.nav-2-r li {
+    display: none;
+}
+
+
+
+/*section 1-------------------------------------------------------*/
+.section-1 p {
+    font-weight: bold;
+    width: 50%;
+    font-size: .8rem;
+    color: rgb(68, 67, 67);
+}
+
+/*section 2 ards ---
+display: flow-root;----------------------------------------------------*/
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    width: 23%;
+    height: auto;
+    border: 1.5px solid black;
+    margin-right: 1rem;
+    padding: .2rem;
+    margin-top: 20px;
+}
+
+.image-vedio-container {
+    width: 100%;
+    height: 15rem;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.rdp-proprty {
+    color: gray;
+}
+
+.price-property {
+    color: black;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.saving-property {
+    color: green;
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+    body {
+        background-color: aquamarine;
+    }
+
+    header {
+        display: block;
+        margin: auto;
+    }
+
+    header .logo-container {
+        width: 14rem;
+        height: 4rem;
+        padding-top: 1rem;
+        padding-left: 4rem;
+        background-color: black;
+        margin: auto;
+    }
+
+    header .nav-1 {
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+
+
+    }
+
+    header .nav-1 li {
+        margin: auto;
+        font-weight: bold;
+        font-size: 0.8rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .nav-2 li {
+        display: none;
+    }
+
+    .nav-2-r li {
+        display: contents;
+        font-weight: bold;
+        font-size: 0.7rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    .nav-2-r a {
+        color: gray;
+        text-decoration: none;
+    }
+
+
+    section p {
+        width: 100%;
+    }
+
+    .card-container {
+        width: 46%;
+
+    }
+
+    .image-vedio-container {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 576px) {
+    body {
+        background-color: chartreuse;
+    }
+
+    .cards-container {
+        display: block;
+    }
+
+    .card-container {
+        width: 100%;
+
+    }
+
+    .image-vedio-container {
+        width: 100%;
+    }
+
+
+    .price-property {
+        color: blue;
+        font-weight: bold;
+        text-decoration-line: underline;
+    }
+
+    .saving-property {
+        color: red;
+    }
+
+    @media print {
+        .nav-1 li {
+            display: none;
+        }
+
+        .nav-2 li {
+            display: none;
+        }
+
+        .nav-2-r {
+            display: none;
+        }
+
+
+    }
+
+
+
+
+
+
+}

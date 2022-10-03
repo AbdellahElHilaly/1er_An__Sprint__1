@@ -106,6 +106,29 @@ footer{
     padding: 20px;
     color: rgb(106, 106, 106);
 }
+
+@media (max-width: 690px)  {
+ 
+    header {
+        display:block;
+        background-color: rgb(58, 5, 5);
+    }
+    .image-logo{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width:  50%;
+    }
+    header ul {
+        display: b=flex;
+        margin: auto;
+        position: relative;
+         
+        font-size: 1em;
+    }
+ 
+    
+}
  
  
   
